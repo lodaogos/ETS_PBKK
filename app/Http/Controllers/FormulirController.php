@@ -71,7 +71,7 @@ class FormulirController extends Controller
         session()->flash('success', 'Barang details updated successfully');
 
         // Redirect the user to the edit page or another appropriate page
-        return redirect()->route('barang')->with('success', 'Barang deleted successfully');
+        return redirect()->route('barang')->with('success', 'Barang updated successfully');
     }
 }
 
