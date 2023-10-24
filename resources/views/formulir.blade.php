@@ -44,7 +44,9 @@
                 </div>
                 <div class="font-semibold text-l text-gray-800 leading-tight mt-5">
                     <label for="pass"><h4>Gambar:</h4></label>
-                    <input type="text" name="gambar" class="form-control">
+                    <!-- <input type="text" name="gambar" class="form-control"> -->
+
+                    <input type="file" class="form-control" name="gambar" required|max:2048|mimes:jpeg,png,jpg>
                 </div>
                 <input type="submit" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 mt-2">              
             </form>
